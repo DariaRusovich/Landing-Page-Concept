@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
-    
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+
     <link rel="preload" href="./css/style.css" as="style" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,8 +15,32 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-    </h1>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+         <div class="nav-wrapper">
+          <a href="index.html" aria-label="Go to home page">
+            <img
+            class="logo-img" 
+            width="1"
+            height="1"
+            loading="lazy"
+            src="./img/logo.svg" alt="Logo">
+          </a>
+          <ul class="menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Benefits</a></li>
+          </ul>
+         </div>
+          <div class="nav-btns">
+            <button class="btn btn-primary">Sign in</button>
+            <button class="btn btn-secondary">Sign up</button>
+          </div>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
