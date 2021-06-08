@@ -13,28 +13,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css"
+      integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/brands.css"
+      integrity="sha384-V5Z1KgRRJyY878qCx7+zUeTDm0FgjoYrbmSortFqRPGz+Ue6XDe4uIiMqB3tB/wd"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css"
+      integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <nav class="nav">
-         <div class="nav-wrapper">
-          <a href="index.html" aria-label="Go to home page">
-            <img
-            class="logo-img" 
-            width="1"
-            height="1"
-            loading="lazy"
-            src="./img/logo.svg" alt="Logo">
-          </a>
-          <ul class="menu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Benefits</a></li>
-          </ul>
-         </div>
+          <div class="nav-wrapper">
+            <a href="index.html" aria-label="Go to home page">
+              <img
+                class="logo-img"
+                width="1"
+                height="1"
+                loading="lazy"
+                src="./img/logo.svg"
+                alt="Logo"
+              />
+            </a>
+            <ul class="menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Benefits</a></li>
+            </ul>
+          </div>
           <div class="nav-btns">
             <button class="btn btn-primary">Sign in</button>
             <button class="btn btn-secondary">Sign up</button>
@@ -42,5 +62,66 @@
         </nav>
       </div>
     </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-offer">
+          <h1 class="main-title title">
+            Many reasons to get up and start to get back in the business
+          </h1>
+          <p class="main-text text">
+            The harder you work for something, the greater you’ll feel when you
+            achieve it.
+          </p>
+          <div class="hero-btns">
+            <button class="btn btn-secondary">Learn more</button>
+            <button class="btn btn-primary">Demo</button>
+          </div>
+        </div>
+        <img
+          width="1"
+          height="1"
+          loading="lazy"
+          src="./img/hero-img.svg"
+          alt="Hero image"
+          class="hero-img"
+        />
+        <div class="video-wrapper">
+          <div class="video-wrap">
+            <button
+              class="video-play-btn"
+              id="playBtn"
+              aria-label="Click to play the video"
+            >
+              <i class="fas fa-play"></i>
+            </button>
+            <video
+              id="video"
+              src="video/1.mp4"
+              class="video"
+              poster="img/video-poster.png"
+            ></video>
+          </div>
+          <div class="video-description">
+            <p class="video-text text-secondary">
+              The harder you work for something, the greater you’ll feel when
+              you achieve it.
+            </p>
+            <span>Watch preview</span>
+          </div>
+        </div>
+        <div class="sponsor-set">
+          <span class="sponsor-logo"></span>
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      playBtn.onclick = function () {
+        video.controls = true;
+        video.play();
+        this.classList.add("hide");
+      };
+    </script>
   </body>
 </html>
