@@ -607,7 +607,7 @@ button {
   justify-content: center;
 }
 .feature-item:not(:first-child) {
-  margin-left: 50px;
+  margin-left: 55px;
 }
 .item-wraper:not(:first-child) {
   margin-top: 35px;
@@ -617,12 +617,31 @@ button {
 }
 .feature-title {
   position: relative;
+  font-size: 18px;
+  color: var(--title-color);
 }
 .feature-title::before {
-  content: url(../img/flip-horizontal-icon.svg);
   position: absolute;
   top: 0;
   right: 100%;
-  padding-right: 30px;
+  padding-right: 25px;
   transform: translateY(-20%);
+}
+.feature-title-icon1::before{
+  content: url(../img/flip-horizontal-icon.svg);
+}
+.feature-title-icon2::before{
+  content: url(../img/airpods-icon.svg);
+}
+.feature-title-icon3::before{
+  content: url(../img/conection-icon.svg);
+}
+.feature-title-icon4::before{
+  content: url(../img/thunder-icon.svg);
+}
+.feature-title-icon5::before{
+  content: url(../img/attach-icon.svg);
+}
+.feature-title-icon6::before{
+  content: url(../img/bulb-icon.svg);
 }
