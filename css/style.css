@@ -559,11 +559,13 @@ button {
 .sponsor-set {
   display: flex;
   margin-top: 100px;
+ 
 }
 .sponsor-logo {
   width: 50%;
   height: 50px;
   opacity: 0.3;
+  
 }
 .logo-brand1 {
   background: url(../img/brand2.svg) no-repeat 50%/50%;
@@ -590,6 +592,15 @@ button {
 
 .features {
   padding: 98px 0 0 0;
+  position: relative;
+}
+.features::before{
+  content: url(../img/bg-section.svg);
+  opacity: 0.2;
+  position: absolute;
+  top: -25%;
+  left: 0;
+
 }
 .centered-text,
 .centered-title {
@@ -628,7 +639,7 @@ button {
   transform: translateY(-20%);
 }
 .feature-title-icon1::before{
-  content: url(../img/flip-horizontal-icon.svg);
+  content: url(../img/flip-horizontal-icon.svg) ;
 }
 .feature-title-icon2::before{
   content: url(../img/airpods-icon.svg);
