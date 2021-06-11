@@ -709,3 +709,43 @@ button {
   transform: translateX(-50%);
   box-shadow: -16.0895px 24.1342px 36.6483px rgba(19, 194, 150, 0.24);
 }
+/*===========TRAFFIC-SECTION END=========*/
+
+/*===========REVIEWS-SECTION START=========*/
+.reviews-section{
+  padding: 180px 0 0 0;
+}
+.reviews-section-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.reviews-section-wrapper .title{
+  width: 800px;
+}
+.reviews-section-wrapper .text{
+  width: 414px;
+}
+
+
+
+.review-wrapper{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 60px;
+}
+.review{
+  width: 290px;
+  text-align: center;
+}
+.review p{
+  margin-top: 15px;
+}
+.review:not(:first-child){
+  margin-left: 110px;
+}
+.review-title{
+font-size: 36px;
+}
