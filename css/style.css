@@ -606,19 +606,8 @@ button {
 
 .features {
   padding: 98px 0 0 0;
-  position: relative;
 }
-.features::before {
-  content: "";
-  background: url(../img/bg-section.svg) no-repeat;
-  width: 100%;
-  height: 100%;
-  opacity: 0.2;
-  position: absolute;
-  top: -25%;
-  left: 0;
-  z-index: -1;
-}
+
 .centered-text,
 .centered-title {
   text-align: center;
@@ -715,16 +704,15 @@ button {
 .reviews-section{
   padding: 180px 0 0 0;
 }
-.reviews-section-wrapper{
+.section-wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
-.reviews-section-wrapper .title{
+.reviews-wrapper .title{
   width: 800px;
 }
-.reviews-section-wrapper .text{
+.reviews-wrapper .text{
   width: 414px;
 }
 
@@ -748,4 +736,27 @@ button {
 }
 .review-title{
 font-size: 36px;
+}
+/*===========FEATURES SECTION END=========*/
+
+/*===========OFFER SECTION START=========*/
+.section-offer{
+  padding: 169px 0 0 0;
+  position: relative;
+}
+/* .section-offer::after{
+  content: '';
+  background: url(../img/section_bg.svg) no-repeat;
+  position: absolute;
+  top: 25%;
+  right: 50%;
+  transform: translateY(30%) translateX(50%);
+  width: 1200px;
+  height: 400px;
+  display: inline-flex;
+  opacity: 0.7;
+  z-index: -1;
+} */
+.section-offer-wrapper .title{
+  width: 770px;
 }
