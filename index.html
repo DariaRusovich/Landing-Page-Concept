@@ -85,6 +85,19 @@
           alt="Hero image"
           class="hero-img"
         />
+        <!-- VIDEO-MODAL -->
+        <div class="modal-backdrop-bg" id="modal-backdrop">
+          <div class="modal-window">
+            <button class="video-play-btn" aria-label="Click to play the video">
+              <i class="fas fa-play"></i>
+            </button>
+            <video
+              src="video/1.mp4"
+              class="video"
+              
+            ></video>
+          </div>
+        </div>
         <div class="video-wrapper">
           <div class="video-wrap">
             <button
@@ -94,19 +107,22 @@
             >
               <i class="fas fa-play"></i>
             </button>
-            <video
+            <img
               id="video"
-              src="video/1.mp4"
-              class="video"
-              poster="img/video-poster.png"
-            ></video>
+              width="1"
+              height="1"
+              loading="lazy"
+              class="video-img"
+              src="./img/video-poster.png"
+              alt="Video"
+            />
           </div>
           <div class="video-description">
             <p class="video-text text-secondary">
               The harder you work for something, the greater you’ll feel when
               you achieve it.
             </p>
-            <span>Watch preview</span>
+            <button class="play-video" id="playVideoBtn">Watch preview</button>
           </div>
         </div>
         <div class="sponsor-set">
@@ -280,25 +296,16 @@
     </section>
     <section class="section section-offer">
       <div class="container">
-      <div class="section-offer-wrapper section-wrapper">
-        <h2 class="title centered-text">
-          Create your <span class="title-accent"> next project </span> with
-          startup framework
-        </h2>
-        <button class="btn btn-secondary">
-          Get started
-        </button>
-      </div>
+        <div class="section-offer-wrapper section-wrapper">
+          <h2 class="title centered-text">
+            Create your <span class="title-accent"> next project </span> with
+            startup framework
+          </h2>
+          <button class="btn btn-secondary">Get started</button>
+        </div>
       </div>
     </section>
 
-    <script>
-      playBtn.onclick = function () {
-        video.controls = true;
-        video.play();
-        this.classList.add("hide");
-        video.classList.add("play");
-      };
-    </script>
+    <script></script>
   </body>
 </html>
