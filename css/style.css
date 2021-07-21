@@ -757,6 +757,7 @@ body.show-modal .modal-backdrop-bg{
 /*===========REVIEWS-SECTION START=========*/
 .reviews-section{
   padding: 180px 0 0 0;
+  background: url(../img/bg-third-section.svg) 0% 50% no-repeat;
 }
 .section-wrapper{
   display: flex;
@@ -795,8 +796,9 @@ font-size: 36px;
 
 /*===========OFFER SECTION START=========*/
 .section-offer{
-  padding: 169px 0 0 0;
+  padding: 169px 0 360px 0;
   position: relative;
+  background: url(../img/bg-proposal-section.svg) 50% 100% no-repeat;
 }
 /* .section-offer::after{
   content: '';
