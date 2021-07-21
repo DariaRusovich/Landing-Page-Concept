@@ -589,6 +589,10 @@ body.show-modal .modal-backdrop-bg{
   color: #6D6D78;
   padding: 8px 0;
 }
+
+.video-play-btn.hide{
+  visibility: hidden;
+}
 .video-play-btn {
   position: absolute;
   border-radius: 50%;
@@ -654,6 +658,8 @@ body.show-modal .modal-backdrop-bg{
 
 .features {
   padding: 98px 0 0 0;
+  background: url(../img/bg-first-section.svg) 50% 50%/100%, no-repeat ;
+  
 }
 
 .centered-text,
