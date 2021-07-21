@@ -524,6 +524,15 @@ button {
   left: 49%;
 }
 /* ---------MODAL-WINDOW---------- */
+body.show-modal{
+  overflow: hidden;
+}
+
+body.show-modal .modal-backdrop-bg{
+  visibility: visible;
+}
+
+
 .modal-backdrop-bg{
   position: fixed;
   top: 0;
