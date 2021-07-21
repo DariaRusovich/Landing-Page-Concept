@@ -89,14 +89,27 @@
         <div class="modal-window-wrapper" id="modalWindowWrapper">
           <div class="modal-backdrop-bg" id="modalBackdrop">
             <div class="modal-window" id="modalWindow">
-              <button class="video-play-btn" aria-label="Click to play the video">
+              <button
+                class="close-btn"
+                id="closeBtn"
+                aria-label="Click to play the video"
+              >
+                <img
+                  class="close-btn-img"
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                  src="./img/times.svg"
+                  alt=""
+                />
+              </button>
+              <button
+                class="video-play-btn"
+                aria-label="Click to play the video"
+              >
                 <i class="fas fa-play"></i>
               </button>
-              <video
-                src="video/1.mp4"
-                class="video"
-                
-              ></video>
+              <video src="video/1.mp4" class="video"></video>
             </div>
           </div>
           <div class="video-wrapper">
@@ -123,7 +136,9 @@
                 The harder you work for something, the greater you’ll feel when
                 you achieve it.
               </p>
-              <button class="play-video play-btn" id="playVideoBtn">Watch preview</button>
+              <button class="play-video play-btn" id="playVideoBtn">
+                Watch preview
+              </button>
             </div>
           </div>
         </div>
@@ -308,6 +323,6 @@
       </div>
     </section>
 
-   <script src="./js/app.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
