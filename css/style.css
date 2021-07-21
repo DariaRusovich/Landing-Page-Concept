@@ -626,31 +626,16 @@ body.show-modal .modal-backdrop-bg{
 }
 .sponsor-set {
   display: flex;
+  justify-content: space-evenly;
   margin-top: 100px;
 }
-.sponsor-logo {
-  width: 50%;
-  height: 50px;
+.sponsor-set>img {
+  width: auto;
+  height: 100%;
   opacity: 0.3;
+  border: 0;
 }
-.logo-brand1 {
-  background: url(../img/brand2.svg) no-repeat 50%/50%;
-}
-.logo-brand2 {
-  background: url(../img/brand3.svg) no-repeat 50%/50%;
-}
-.logo-brand3 {
-  background: url(../img/brand4.svg) no-repeat 50%/50%;
-}
-.logo-brand4 {
-  background: url(../img/brand5.svg) no-repeat 50%/50%;
-}
-.logo-brand5 {
-  background: url(../img/brand6.svg) no-repeat 50%/50%;
-}
-.logo-brand6 {
-  background: url(../img/brand7.svg) no-repeat 50%/50%;
-}
+
 
 /*===========HERO SECTION END=========*/
 
