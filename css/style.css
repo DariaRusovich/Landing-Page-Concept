@@ -524,19 +524,18 @@ button {
   left: 49%;
 }
 /* ---------MODAL-WINDOW---------- */
-body.show-modal{
+body.show-modal {
   overflow: hidden;
 }
 
-body.show-modal .modal-backdrop-bg{
+body.show-modal .modal-backdrop-bg {
   visibility: visible;
 }
-.close-btn-img{
+.close-btn-img {
   width: 36px;
   height: auto;
-  
 }
-.close-btn{
+.close-btn {
   position: absolute;
   top: 0;
   left: 100%;
@@ -544,7 +543,7 @@ body.show-modal .modal-backdrop-bg{
   padding: 5px;
   z-index: 2000;
 }
-.modal-backdrop-bg{
+.modal-backdrop-bg {
   position: fixed;
   top: 0;
   left: 0;
@@ -555,7 +554,7 @@ body.show-modal .modal-backdrop-bg{
   display: flex;
   visibility: hidden;
 }
-.modal-window{
+.modal-window {
   width: 500px;
   height: 300px;
   margin: auto;
@@ -572,11 +571,10 @@ body.show-modal .modal-backdrop-bg{
   width: 150px;
   height: 80px;
 }
-.video{
+.video {
   width: 100%;
   height: auto;
 }
-  
 
 .video.play {
   width: 355px;
@@ -585,12 +583,12 @@ body.show-modal .modal-backdrop-bg{
 .video-wrap {
   position: relative;
 }
-.play-video{
-  color: #6D6D78;
+.play-video {
+  color: #6d6d78;
   padding: 8px 0;
 }
 
-.video-play-btn.hide{
+.video-play-btn.hide {
   visibility: hidden;
 }
 .video-play-btn {
@@ -629,13 +627,12 @@ body.show-modal .modal-backdrop-bg{
   justify-content: space-evenly;
   margin-top: 100px;
 }
-.sponsor-set>img {
+.sponsor-set > img {
   width: auto;
   height: 100%;
   opacity: 0.3;
   border: 0;
 }
-
 
 /*===========HERO SECTION END=========*/
 
@@ -644,7 +641,6 @@ body.show-modal .modal-backdrop-bg{
 .features {
   padding: 98px 0 0 0;
   background: url(../img/bg-first-section.svg) 50% 50%/100% no-repeat;
-  
 }
 
 .centered-text,
@@ -714,7 +710,7 @@ body.show-modal .modal-backdrop-bg{
 }
 
 .section-content {
-  width: 450px;
+  width: 430px;
 }
 .content-img {
   width: 100%;
@@ -740,61 +736,117 @@ body.show-modal .modal-backdrop-bg{
 /*===========TRAFFIC-SECTION END=========*/
 
 /*===========REVIEWS-SECTION START=========*/
-.reviews-section{
+.reviews-section {
   padding: 180px 0 0 0;
   background: url(../img/bg-third-section.svg) 0% 50% no-repeat;
 }
-.section-wrapper{
+.section-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.reviews-wrapper .title{
+.reviews-wrapper .title {
   width: 800px;
 }
-.reviews-wrapper .text{
+.reviews-wrapper .text {
   width: 414px;
 }
 
-
-
-.review-wrapper{
+.review-wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   margin-top: 60px;
 }
-.review{
+.review {
   width: 290px;
   text-align: center;
 }
-.review p{
+.review p {
   margin-top: 15px;
 }
-.review:not(:first-child){
+.review:not(:first-child) {
   margin-left: 110px;
 }
-.review-title{
-font-size: 36px;
+.review-title {
+  font-size: 36px;
 }
 /*===========FEATURES SECTION END=========*/
 
 /*===========OFFER SECTION START=========*/
-.section-offer{
+.section-offer {
   padding: 169px 0 360px 0;
   position: relative;
   background: url(../img/bg-proposal-section.svg) 50% 100% no-repeat;
 }
-.section-offer-wrapper .title{
+.section-offer-wrapper .title {
   width: 770px;
 }
 
 /*===========INVEST-SECTION SECTION START=========*/
 
-.invest-section{
-  padding: 50px 0 0 0;
+.invest-section {
+  padding: 100px 0 0 0;
+  background: url(../img/bg-card.svg) 100% 100%  no-repeat;
 }
-.invest-section .picture{
+.invest-section .content-wrapper {
+  gap: 200px;;
+}
+.invest-card {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.invest-card .arrow::after {
+  top: 50%;
+  right: 100%;
+  transform: translate(50%, 30%);
+}
+.invest-section .picture {
+  margin-left: initial;
   width: 260px;
   height: auto;
+}
+.invest-section .content-img {
+  border-radius: 10px 10px 0 0;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+.card-title {
+  font-size: 16px;
+  color: #212b36;
+  width: 188px;
+}
+.card-result {
+  margin-top: 20px;
+}
+.card-title > span,
+.card-text > span {
+  color: #637381;
+  font-size: 10px;
+}
+.card-text {
+  font-size: 24px;
+  color: #13c296;
+}
+.card-text > span {
+  text-transform: uppercase;
+}
+.indicators {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 35px;
+  position: relative;
+}
+.line::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 200px;
+  height: 1px;
+  background-color: #d6dbdf;
 }
