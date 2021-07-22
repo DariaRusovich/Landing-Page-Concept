@@ -707,24 +707,24 @@ body.show-modal .modal-backdrop-bg{
 .traffic-section {
   padding: 150px 0 0 0;
 }
-.traffic-content-wrapper {
+.content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.traffic-content {
+.section-content {
   width: 450px;
 }
-.traffic-content-img {
+.content-img {
   width: 100%;
   height: auto;
 }
-.traffic-content-wrapper .picture {
+.content-wrapper .picture {
   margin-left: 60px;
   position: relative;
 }
-.traffic-content-wrapper .picture::after {
+.arrow::after {
   content: "";
   background: url(../img/arrow.svg) no-repeat;
   width: 60px;
@@ -785,19 +785,16 @@ font-size: 36px;
   position: relative;
   background: url(../img/bg-proposal-section.svg) 50% 100% no-repeat;
 }
-/* .section-offer::after{
-  content: '';
-  background: url(../img/section_bg.svg) no-repeat;
-  position: absolute;
-  top: 25%;
-  right: 50%;
-  transform: translateY(30%) translateX(50%);
-  width: 1200px;
-  height: 400px;
-  display: inline-flex;
-  opacity: 0.7;
-  z-index: -1;
-} */
 .section-offer-wrapper .title{
   width: 770px;
+}
+
+/*===========INVEST-SECTION SECTION START=========*/
+
+.invest-section{
+  padding: 50px 0 0 0;
+}
+.invest-section .picture{
+  width: 260px;
+  height: auto;
 }
