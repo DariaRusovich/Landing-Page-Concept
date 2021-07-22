@@ -792,6 +792,9 @@ body.show-modal .modal-backdrop-bg {
 .invest-section .content-wrapper {
   gap: 200px;
 }
+
+/* =======CARD======= */
+
 .invest-card {
   background-color: #fff;
   border-radius: 10px;
@@ -869,4 +872,14 @@ body.show-modal .modal-backdrop-bg {
   font-size: 10px;
   letter-spacing: 0.5px;
   color: hsla(0, 0%, 100%, 0.6);
+}
+/*===========INVEST-SECTION SECTION START=========*/
+.support-section{
+  padding: 200px 0 0 0;
+  background: url(../img/bg-support-section.svg)  0% 50% no-repeat;
+}
+
+
+.team-img{
+  border-radius: 12px;
 }
