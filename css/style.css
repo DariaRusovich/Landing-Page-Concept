@@ -877,11 +877,15 @@ body.show-modal .modal-backdrop-bg {
 /*===========INVEST-SECTION SECTION START=========*/
 .support-section{
   padding: 200px 0 0 0;
-  background: url(../img/bg-support-section.svg)  0% 50% no-repeat;
+  background: url(../img/bg-support-section.svg) 15% 55% no-repeat;
 }
-
-
+.support-section .picture{
+  width: 375px;
+  height: 100%;
+}
 .team-img{
+  width: 100%;
+  height: auto;
   border-radius: 12px;
 }
 .support-content{
@@ -892,6 +896,16 @@ body.show-modal .modal-backdrop-bg {
 }
 .info-title{
   width: 415px;
+}
+.info{
+  position: relative;
+}
+.info::after{
+  content: url(../img/bg-third-section.svg);
+  position: absolute;
+  top: -50%;
+  left: 60%;
+  transform: rotate(180deg);
 }
 .info .title{
 font-size: 26px;
