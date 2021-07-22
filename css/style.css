@@ -787,10 +787,10 @@ body.show-modal .modal-backdrop-bg {
 
 .invest-section {
   padding: 100px 0 0 0;
-  background: url(../img/bg-card.svg) 100% 100%  no-repeat;
+  background: url(../img/bg-card.svg) 100% 100% no-repeat;
 }
 .invest-section .content-wrapper {
-  gap: 200px;;
+  gap: 200px;
 }
 .invest-card {
   background-color: #fff;
@@ -813,6 +813,7 @@ body.show-modal .modal-backdrop-bg {
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
+  position: relative;
 }
 .card-title {
   font-size: 16px;
@@ -849,4 +850,23 @@ body.show-modal .modal-backdrop-bg {
   width: 200px;
   height: 1px;
   background-color: #d6dbdf;
+}
+.label {
+  padding: 15px 25px 15px 13px;
+  background: #516ea9;
+  box-shadow: -8px 16px 60px rgba(82, 114, 139, 0.24);
+  border-radius: 0 10px 10px 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -100%);
+}
+.label>p{
+  font-size: 16px;
+  color: #fff;
+}
+.label span{
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: hsla(0, 0%, 100%, 0.6);
 }
