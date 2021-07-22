@@ -386,10 +386,11 @@ body {
   padding-bottom: 1000px; /*development*/
 }
 :root {
-  --color-text: hsl(256, 23%, 75%);
+  --color-text: hsl(256, 23%, 75%); /*initial color for text not contrasting enough (#8476AA;)*/
   --bg-color: hsl(238, 64%, 16%);
   --accent-color: hsl(28, 87%, 62%);
   --title-color: hsl(158, 73%, 77%);
+
 }
 picture {
   display: inline-block;
@@ -882,4 +883,45 @@ body.show-modal .modal-backdrop-bg {
 
 .team-img{
   border-radius: 12px;
+}
+.support-content{
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  gap: 143px;
+}
+.info-title{
+  width: 415px;
+}
+.info .title{
+font-size: 26px;
+letter-spacing: 0.3px;
+}
+.info-features{
+  display: flex;
+  margin-top: 100px;
+  gap: 60px;
+}
+.info-features p{
+  margin-top: 10px;
+}
+.info-feature{
+  width: 200px;
+  position: relative;
+}
+.info-feature::before{
+  position: absolute;
+  top: -50%;
+  left: 0;
+  transform: translateY(-20%);
+}
+.feature1::before{
+  content: url(../img/swiss-knife-icon.svg);
+  
+}
+.feature2::before{
+  content: url(../img/conection-icon2.svg);
+}
+.info-feature>.title{
+  font-size: 14px;
 }
