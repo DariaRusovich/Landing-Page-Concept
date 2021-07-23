@@ -1010,7 +1010,7 @@ body.show-modal .modal-backdrop-bg {
   align-items: center;
   gap: 16px;
 }
-.social-set > img {
+.social-set img {
   width: 40px;
   height: auto;
 }
